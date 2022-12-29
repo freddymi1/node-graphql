@@ -1,9 +1,9 @@
-const mongoose = require('mongoose');
+const mongoose = require("mongoose");
 
 const postSchema = new mongoose.Schema({
     authorId: {
         type: String,
-        required: tmongoose.rusted
+        required: true
     },
     title: {
         type: String,
