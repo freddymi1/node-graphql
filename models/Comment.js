@@ -5,7 +5,7 @@ const commentSchemma = new mongoose.Schema({
         type: String,
         required: true
     },
-    userId: {
+    authorId: {
         type: String,
         required: true
     },

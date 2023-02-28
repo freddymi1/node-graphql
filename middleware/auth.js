@@ -11,7 +11,7 @@ const authenticate = async (req, res, next) => {
         console.log("Verification effectué avec succes!", verified);
         next();
     } catch (err) {
-        console.log("Erreur de verification", err);
+        console.log("Erreur de verification du token");
         next();
     }
 }
